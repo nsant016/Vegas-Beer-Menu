@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E601341218593AB600BF3854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E601341118593AB600BF3854 /* UIKit.framework */; };
+		E601341418593AB600BF3854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E601341318593AB600BF3854 /* Foundation.framework */; };
+		E601341618593AB600BF3854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E601341518593AB600BF3854 /* CoreGraphics.framework */; };
+		E601341818593AB600BF3854 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E601341718593AB600BF3854 /* CoreData.framework */; };
+		E601341E18593AB600BF3854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E601341C18593AB600BF3854 /* InfoPlist.strings */; };
+		E601342018593AB600BF3854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E601341F18593AB600BF3854 /* main.m */; };
+		E601342418593AB600BF3854 /* BeerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E601342318593AB600BF3854 /* BeerAppDelegate.m */; };
+		E601342618593AB600BF3854 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E601342518593AB600BF3854 /* Default.png */; };
+		E601342818593AB600BF3854 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E601342718593AB600BF3854 /* Default@2x.png */; };
+		E601342A18593AB600BF3854 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E601342918593AB600BF3854 /* Default-568h@2x.png */; };
+		E601342D18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E601342B18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E601340E18593AB600BF3854 /* Vegas Beer Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegas Beer Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E601341118593AB600BF3854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E601341318593AB600BF3854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E601341518593AB600BF3854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E601341718593AB600BF3854 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E601341B18593AB600BF3854 /* Vegas Beer Menu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vegas Beer Menu-Info.plist"; sourceTree = "<group>"; };
+		E601341D18593AB600BF3854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E601341F18593AB600BF3854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E601342118593AB600BF3854 /* Vegas Beer Menu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vegas Beer Menu-Prefix.pch"; sourceTree = "<group>"; };
+		E601342218593AB600BF3854 /* BeerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeerAppDelegate.h; sourceTree = "<group>"; };
+		E601342318593AB600BF3854 /* BeerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeerAppDelegate.m; sourceTree = "<group>"; };
+		E601342518593AB600BF3854 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E601342718593AB600BF3854 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E601342918593AB600BF3854 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E601342C18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vegas_Beer_Menu.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E601340B18593AB600BF3854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E601341218593AB600BF3854 /* UIKit.framework in Frameworks */,
+				E601341418593AB600BF3854 /* Foundation.framework in Frameworks */,
+				E601341618593AB600BF3854 /* CoreGraphics.framework in Frameworks */,
+				E601341818593AB600BF3854 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E601340518593AB600BF3854 = {
+			isa = PBXGroup;
+			children = (
+				E601341918593AB600BF3854 /* Vegas Beer Menu */,
+				E601341018593AB600BF3854 /* Frameworks */,
+				E601340F18593AB600BF3854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E601340F18593AB600BF3854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E601340E18593AB600BF3854 /* Vegas Beer Menu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E601341018593AB600BF3854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E601341118593AB600BF3854 /* UIKit.framework */,
+				E601341318593AB600BF3854 /* Foundation.framework */,
+				E601341518593AB600BF3854 /* CoreGraphics.framework */,
+				E601341718593AB600BF3854 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E601341918593AB600BF3854 /* Vegas Beer Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E601342218593AB600BF3854 /* BeerAppDelegate.h */,
+				E601342318593AB600BF3854 /* BeerAppDelegate.m */,
+				E601342B18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld */,
+				E601341A18593AB600BF3854 /* Supporting Files */,
+			);
+			path = "Vegas Beer Menu";
+			sourceTree = "<group>";
+		};
+		E601341A18593AB600BF3854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E601341B18593AB600BF3854 /* Vegas Beer Menu-Info.plist */,
+				E601341C18593AB600BF3854 /* InfoPlist.strings */,
+				E601341F18593AB600BF3854 /* main.m */,
+				E601342118593AB600BF3854 /* Vegas Beer Menu-Prefix.pch */,
+				E601342518593AB600BF3854 /* Default.png */,
+				E601342718593AB600BF3854 /* Default@2x.png */,
+				E601342918593AB600BF3854 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E601340D18593AB600BF3854 /* Vegas Beer Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E601343018593AB600BF3854 /* Build configuration list for PBXNativeTarget "Vegas Beer Menu" */;
+			buildPhases = (
+				E601340A18593AB600BF3854 /* Sources */,
+				E601340B18593AB600BF3854 /* Frameworks */,
+				E601340C18593AB600BF3854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vegas Beer Menu";
+			productName = "Vegas Beer Menu";
+			productReference = E601340E18593AB600BF3854 /* Vegas Beer Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E601340618593AB600BF3854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Beer;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = FIU;
+			};
+			buildConfigurationList = E601340918593AB600BF3854 /* Build configuration list for PBXProject "Vegas Beer Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E601340518593AB600BF3854;
+			productRefGroup = E601340F18593AB600BF3854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E601340D18593AB600BF3854 /* Vegas Beer Menu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E601340C18593AB600BF3854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E601341E18593AB600BF3854 /* InfoPlist.strings in Resources */,
+				E601342618593AB600BF3854 /* Default.png in Resources */,
+				E601342818593AB600BF3854 /* Default@2x.png in Resources */,
+				E601342A18593AB600BF3854 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E601340A18593AB600BF3854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E601342018593AB600BF3854 /* main.m in Sources */,
+				E601342418593AB600BF3854 /* BeerAppDelegate.m in Sources */,
+				E601342D18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E601341C18593AB600BF3854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E601341D18593AB600BF3854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E601342E18593AB600BF3854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E601342F18593AB600BF3854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E601343118593AB600BF3854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegas Beer Menu/Vegas Beer Menu-Prefix.pch";
+				INFOPLIST_FILE = "Vegas Beer Menu/Vegas Beer Menu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E601343218593AB600BF3854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vegas Beer Menu/Vegas Beer Menu-Prefix.pch";
+				INFOPLIST_FILE = "Vegas Beer Menu/Vegas Beer Menu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E601340918593AB600BF3854 /* Build configuration list for PBXProject "Vegas Beer Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E601342E18593AB600BF3854 /* Debug */,
+				E601342F18593AB600BF3854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E601343018593AB600BF3854 /* Build configuration list for PBXNativeTarget "Vegas Beer Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E601343118593AB600BF3854 /* Debug */,
+				E601343218593AB600BF3854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E601342B18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E601342C18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodel */,
+			);
+			currentVersion = E601342C18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodel */;
+			path = Vegas_Beer_Menu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E601340618593AB600BF3854 /* Project object */;
+}

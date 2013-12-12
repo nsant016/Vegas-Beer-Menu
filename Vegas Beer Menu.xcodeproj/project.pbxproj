@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0F0C6021859F1D900AF4109 /* VegasBeerListLOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F0C6011859F1D900AF4109 /* VegasBeerListLOGO.png */; };
+		B0F0C6041859F1E000AF4109 /* VegasBeerListLOGO_R.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F0C6031859F1E000AF4109 /* VegasBeerListLOGO_R.png */; };
+		B0F0C606185A5E1200AF4109 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0F0C605185A5E1200AF4109 /* Social.framework */; };
+		B0F0C610185A626400AF4109 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F0C60F185A626400AF4109 /* AboutViewController.m */; };
+		B0F0C612185A626F00AF4109 /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = B0F0C611185A626F00AF4109 /* about.html */; };
+		B0F0C614185A636700AF4109 /* about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0F0C613185A636600AF4109 /* about.jpg */; };
+		B0F0C616185A6FB200AF4109 /* VegasBurgerBar_Logo-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0F0C615185A6FB200AF4109 /* VegasBurgerBar_Logo-568h@2x.png */; };
 		E601341218593AB600BF3854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E601341118593AB600BF3854 /* UIKit.framework */; };
 		E601341418593AB600BF3854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E601341318593AB600BF3854 /* Foundation.framework */; };
 		E601341618593AB600BF3854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E601341518593AB600BF3854 /* CoreGraphics.framework */; };
@@ -18,9 +25,23 @@
 		E601342818593AB600BF3854 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E601342718593AB600BF3854 /* Default@2x.png */; };
 		E601342A18593AB600BF3854 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E601342918593AB600BF3854 /* Default-568h@2x.png */; };
 		E601342D18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E601342B18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld */; };
+		E601343518593BD300BF3854 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = E601343418593BD300BF3854 /* Beer.m */; };
+		E601343818593C2100BF3854 /* BeerList.m in Sources */ = {isa = PBXBuildFile; fileRef = E601343718593C2100BF3854 /* BeerList.m */; };
+		E64363CE18593DAB0092785F /* BeerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64363CD18593DAB0092785F /* BeerStoryboard.storyboard */; };
+		E64363D11859437E0092785F /* BeerStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E64363D01859437E0092785F /* BeerStoreViewController.m */; };
+		E6FEAD55185958BD00736383 /* BeerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FEAD54185958BD00736383 /* BeerDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0F0C6011859F1D900AF4109 /* VegasBeerListLOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VegasBeerListLOGO.png; path = ../VegasBeerListLOGO.png; sourceTree = "<group>"; };
+		B0F0C6031859F1E000AF4109 /* VegasBeerListLOGO_R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = VegasBeerListLOGO_R.png; path = ../VegasBeerListLOGO_R.png; sourceTree = "<group>"; };
+		B0F0C605185A5E1200AF4109 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B0F0C607185A5F2500AF4109 /* VegasBurgerBar_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VegasBurgerBar_Logo.png; sourceTree = "<group>"; };
+		B0F0C60E185A626300AF4109 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		B0F0C60F185A626400AF4109 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		B0F0C611185A626F00AF4109 /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		B0F0C613185A636600AF4109 /* about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = about.jpg; sourceTree = "<group>"; };
+		B0F0C615185A6FB200AF4109 /* VegasBurgerBar_Logo-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VegasBurgerBar_Logo-568h@2x.png"; sourceTree = "<group>"; };
 		E601340E18593AB600BF3854 /* Vegas Beer Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vegas Beer Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E601341118593AB600BF3854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E601341318593AB600BF3854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +57,15 @@
 		E601342718593AB600BF3854 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E601342918593AB600BF3854 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E601342C18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vegas_Beer_Menu.xcdatamodel; sourceTree = "<group>"; };
+		E601343318593BD300BF3854 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		E601343418593BD300BF3854 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		E601343618593C2100BF3854 /* BeerList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerList.h; sourceTree = "<group>"; };
+		E601343718593C2100BF3854 /* BeerList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerList.m; sourceTree = "<group>"; };
+		E64363CD18593DAB0092785F /* BeerStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BeerStoryboard.storyboard; sourceTree = "<group>"; };
+		E64363CF1859437E0092785F /* BeerStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerStoreViewController.h; sourceTree = "<group>"; };
+		E64363D01859437E0092785F /* BeerStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerStoreViewController.m; sourceTree = "<group>"; };
+		E6FEAD53185958BD00736383 /* BeerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerDetailViewController.h; sourceTree = "<group>"; };
+		E6FEAD54185958BD00736383 /* BeerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0F0C606185A5E1200AF4109 /* Social.framework in Frameworks */,
 				E601341218593AB600BF3854 /* UIKit.framework in Frameworks */,
 				E601341418593AB600BF3854 /* Foundation.framework in Frameworks */,
 				E601341618593AB600BF3854 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +87,7 @@
 		E601340518593AB600BF3854 = {
 			isa = PBXGroup;
 			children = (
+				B0F0C615185A6FB200AF4109 /* VegasBurgerBar_Logo-568h@2x.png */,
 				E601341918593AB600BF3854 /* Vegas Beer Menu */,
 				E601341018593AB600BF3854 /* Frameworks */,
 				E601340F18593AB600BF3854 /* Products */,
@@ -73,6 +105,7 @@
 		E601341018593AB600BF3854 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0F0C605185A5E1200AF4109 /* Social.framework */,
 				E601341118593AB600BF3854 /* UIKit.framework */,
 				E601341318593AB600BF3854 /* Foundation.framework */,
 				E601341518593AB600BF3854 /* CoreGraphics.framework */,
@@ -84,9 +117,25 @@
 		E601341918593AB600BF3854 /* Vegas Beer Menu */ = {
 			isa = PBXGroup;
 			children = (
+				E601343318593BD300BF3854 /* Beer.h */,
+				E601343418593BD300BF3854 /* Beer.m */,
+				E601342B18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld */,
 				E601342218593AB600BF3854 /* BeerAppDelegate.h */,
 				E601342318593AB600BF3854 /* BeerAppDelegate.m */,
-				E601342B18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld */,
+				E64363CD18593DAB0092785F /* BeerStoryboard.storyboard */,
+				E64363CF1859437E0092785F /* BeerStoreViewController.h */,
+				E64363D01859437E0092785F /* BeerStoreViewController.m */,
+				E6FEAD53185958BD00736383 /* BeerDetailViewController.h */,
+				E6FEAD54185958BD00736383 /* BeerDetailViewController.m */,
+				B0F0C60E185A626300AF4109 /* AboutViewController.h */,
+				B0F0C60F185A626400AF4109 /* AboutViewController.m */,
+				E601343618593C2100BF3854 /* BeerList.h */,
+				E601343718593C2100BF3854 /* BeerList.m */,
+				B0F0C6031859F1E000AF4109 /* VegasBeerListLOGO_R.png */,
+				B0F0C6011859F1D900AF4109 /* VegasBeerListLOGO.png */,
+				B0F0C607185A5F2500AF4109 /* VegasBurgerBar_Logo.png */,
+				B0F0C611185A626F00AF4109 /* about.html */,
+				B0F0C613185A636600AF4109 /* about.jpg */,
 				E601341A18593AB600BF3854 /* Supporting Files */,
 			);
 			path = "Vegas Beer Menu";
@@ -162,6 +211,12 @@
 				E601342618593AB600BF3854 /* Default.png in Resources */,
 				E601342818593AB600BF3854 /* Default@2x.png in Resources */,
 				E601342A18593AB600BF3854 /* Default-568h@2x.png in Resources */,
+				E64363CE18593DAB0092785F /* BeerStoryboard.storyboard in Resources */,
+				B0F0C6021859F1D900AF4109 /* VegasBeerListLOGO.png in Resources */,
+				B0F0C6041859F1E000AF4109 /* VegasBeerListLOGO_R.png in Resources */,
+				B0F0C612185A626F00AF4109 /* about.html in Resources */,
+				B0F0C614185A636700AF4109 /* about.jpg in Resources */,
+				B0F0C616185A6FB200AF4109 /* VegasBurgerBar_Logo-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +230,11 @@
 				E601342018593AB600BF3854 /* main.m in Sources */,
 				E601342418593AB600BF3854 /* BeerAppDelegate.m in Sources */,
 				E601342D18593AB600BF3854 /* Vegas_Beer_Menu.xcdatamodeld in Sources */,
+				E601343518593BD300BF3854 /* Beer.m in Sources */,
+				E601343818593C2100BF3854 /* BeerList.m in Sources */,
+				E64363D11859437E0092785F /* BeerStoreViewController.m in Sources */,
+				E6FEAD55185958BD00736383 /* BeerDetailViewController.m in Sources */,
+				B0F0C610185A626400AF4109 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +349,7 @@
 				E601343218593AB600BF3854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

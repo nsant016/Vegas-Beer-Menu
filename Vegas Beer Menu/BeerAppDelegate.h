@@ -1,9 +1,5 @@
-//
-//  BeerAppDelegate.h
-//  Vegas Beer Menu
-//
-//  Created by steven brian aten on 12/11/13.
-//  Copyright (c) 2013 FIU. All rights reserved.
+// Developed by: Steven Aten and Nestor Santiago
+// GitHub MIT License
 //
 
 #import <UIKit/UIKit.h>
